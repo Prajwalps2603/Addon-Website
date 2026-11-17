@@ -1,7 +1,7 @@
 # Render Blueprint: one web service serves the API (/api) and the built storefront.
 # FREE PLAN: no card needed, but the disk is temporary. The database and uploaded photos are
 # wiped on every restart, redeploy and wake-up after idling, and the sample catalogue is reloaded.
-# Fine for a demo. For a real store, switch to `plan: free`, add the disk block back and set
+# Fine for a demo. For a real store, switch to `plan: starter`, add the disk block back and set
 # DB_PATH=/var/data/addon.db and UPLOADS_DIR=/var/data/uploads.
 services:
   - type: web
