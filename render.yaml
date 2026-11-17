@@ -1,27 +1,22 @@
 # Render Blueprint: one web service serves the API (/api) and the built storefront.
-# SQLite and uploaded photos live on a persistent disk, which needs a paid instance (Starter or higher).
+# FREE PLAN: no card needed, but the disk is temporary. The database and uploaded photos are
+# wiped on every restart, redeploy and wake-up after idling, and the sample catalogue is reloaded.
+# Fine for a demo. For a real store, switch to `plan: free`, add the disk block back and set
+# DB_PATH=/var/data/addon.db and UPLOADS_DIR=/var/data/uploads.
 services:
   - type: web
     name: addon-store
     runtime: node
-    plan: starter
+    plan: free
     region: singapore
     buildCommand: npm --prefix server ci && npm --prefix client ci --include=dev && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
-    disk:
-      name: addon-data
-      mountPath: /var/data
-      sizeGB: 5
     envVars:
       - key: NODE_VERSION
         value: 24.14.1
       - key: NODE_ENV
         value: production
-      - key: DB_PATH
-        value: /var/data/addon.db
-      - key: UPLOADS_DIR
-        value: /var/data/uploads
       # Generated once by Render.
       - key: JWT_SECRET
         generateValue: true
