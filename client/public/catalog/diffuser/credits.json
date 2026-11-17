@@ -1,0 +1,72 @@
+[
+  {
+    "file": "diffuser-01.jpg",
+    "title": "Diffuser on BMW M4",
+    "creator": "Duboyong",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Diffuser_on_BMW_M4.jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss carbon-fibre rear diffuser with vertical fins and quad brushed-steel exhaust tips under the rear bumper of a white BMW M4, angled close-up",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "diffuser-02.jpg",
+    "title": "BMW F90 M5 CS Frozen Deep Green Metallic (13)",
+    "creator": "Damian B Oh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_F90_M5_CS_Frozen_Deep_Green_Metallic_(13).jpg",
+    "provider": "wikimedia",
+    "shows": "Carbon-fibre rear diffuser with gloss black surround and quad titanium-look exhaust tips on a matte dark green BMW M5 CS, low rear close-up on tarmac",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "diffuser-03.jpg",
+    "title": "2013 IAA DSC02024 DxO (9879145825) (2)",
+    "creator": "youkeys",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_IAA_DSC02024_DxO_(9879145825)_(2).jpg",
+    "provider": "wikimedia",
+    "shows": "Carbon-fibre rear diffuser with vertical fins and a central LED fog light under the bumper of a silver Porsche 918 Spyder, close-up on a white show floor",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 851
+  },
+  {
+    "file": "diffuser-04.jpg",
+    "title": "Abarth 500 - Flickr - David Villarreal Fernández (41)",
+    "creator": "David Villarreal Fernández",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abarth_500_-_Flickr_-_David_Villarreal_Fern%C3%A1ndez_(41).jpg",
+    "provider": "wikimedia",
+    "shows": "Matte black rear diffuser insert with honeycomb mesh and a chrome-ringed exhaust tip on the bumper of a red Abarth 500 hatchback, low side-on close-up on grass",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 827
+  },
+  {
+    "file": "diffuser-05.jpg",
+    "title": "Mercedes-AMG Project One, IAA 2017, Frankfurt (1Y7A2932)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-AMG_Project_One,_IAA_2017,_Frankfurt_(1Y7A2932).jpg",
+    "provider": "wikimedia",
+    "shows": "Matte carbon-fibre rear diffuser fins either side of a large central exhaust outlet on a dark grey Mercedes-AMG Project One, tight rear close-up with model lettering above",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

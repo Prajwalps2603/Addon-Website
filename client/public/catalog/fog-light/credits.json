@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fog-light-01.jpg",
+    "title": "Ebro S700 performance fog lights",
+    "creator": "Schumi4ever",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ebro_S700_performance_fog_lights.jpg",
+    "provider": "wikimedia",
+    "shows": "Modern projector-lens fog lamp recessed in a gloss black bumper insert on a metallic grey car, with rain droplets on the bodywork, close-up",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "fog-light-02.jpg",
+    "title": "OutbackFogLamp",
+    "creator": "Ehsnils",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OutbackFogLamp.jpg",
+    "provider": "wikimedia",
+    "shows": "Round clear-lens fog lamp with a faceted chrome reflector and capped bulb, set in a matte black bumper surround, tight close-up filling the frame",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 1140
+  },
+  {
+    "file": "fog-light-03.jpg",
+    "title": "SAE Fog Lamps",
+    "creator": "Tony Webster",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SAE_Fog_Lamps.jpg",
+    "provider": "wikimedia",
+    "shows": "Small round projector-style fog lamp in the matte black front bumper of a pickup truck, with a honeycomb grille insert beside it and the tyre blurred behind",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "fog-light-04.jpg",
+    "title": "Citroen C5 Airscape - IAA 2007 - 008",
+    "creator": "Klaus Nahr from Germany",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citroen_C5_Airscape_-_IAA_2007_-_008.jpg",
+    "provider": "wikimedia",
+    "shows": "Angular chrome fog lamp unit with a clear lens recessed in the glossy silver front bumper of a show car, with a chrome trim strip below",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "fog-light-05.jpg",
+    "title": "Brou yar 2",
+    "creator": "Julien Bertrand",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brou_yar_2.JPG",
+    "provider": "wikimedia",
+    "shows": "Round clear-lens front fog lamp with a chrome reflector set in a matte black surround on a silver bumper, close-up",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

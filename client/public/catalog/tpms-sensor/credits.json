@@ -1,0 +1,58 @@
+[
+  {
+    "file": "tpms-sensor-01.jpg",
+    "title": "TPMS front side",
+    "creator": "Lumu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TPMS_front_side.jpg",
+    "provider": "wikimedia",
+    "shows": "Single valve-mounted TPMS tyre pressure sensor: black plastic sensor body with white printed markings attached to a silver aluminium valve stem with a grey cap, lying on a plain pale grey-white background",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 828
+  },
+  {
+    "file": "tpms-sensor-02.jpg",
+    "title": "Chevy Cruze TPMS display",
+    "creator": "WillisMoon",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chevy_Cruze_TPMS_display.jpg",
+    "provider": "wikimedia",
+    "shows": "Car instrument-cluster display glowing cyan on black, reading Tire Pressure PSI with a top-view car icon and the four individual tyre pressures 32, 30, 31 and 32",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "tpms-sensor-03.jpg",
+    "title": "Tire valve cap",
+    "creator": "Andrew Pertsev",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tire_valve_cap.jpg",
+    "provider": "wikimedia",
+    "shows": "Single knurled metal tyre valve cap in brushed silver steel with a slotted valve-core tool tip, macro shot on a plain white surface",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "tpms-sensor-04.jpg",
+    "title": "Tire valve stem-cap off",
+    "creator": "Christopher Ziemnowicz (CZmarlin)",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tire_valve_stem-cap_off.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a brass tyre valve stem with its cap removed, showing the valve core, poking through a grey painted alloy wheel with a bright machined rim edge and tyre sidewall",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

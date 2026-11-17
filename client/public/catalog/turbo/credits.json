@@ -1,0 +1,72 @@
+[
+  {
+    "file": "turbo-01.jpg",
+    "title": "Turbocharger 3",
+    "creator": "Tiia Monto",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turbocharger_3.jpg",
+    "provider": "wikimedia",
+    "shows": "Bare turbocharger with attached cast exhaust manifold, wastegate actuator and red protective caps, lying on a plain white background, wide side view",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 539
+  },
+  {
+    "file": "turbo-02.jpg",
+    "title": "Mazda 13B-REW rotary engine2",
+    "creator": "C0rbin99",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mazda_13B-REW_rotary_engine2.jpg",
+    "provider": "wikimedia",
+    "shows": "Top-down view of a red sports-car engine bay with a red strut tower bar bolted across the two strut towers, silver intake manifold, charge pipe with a blue silicone coupler and black airbox",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "turbo-03.jpg",
+    "title": "MX-5 SP Engine Bay",
+    "creator": "Lambertius",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MX-5_SP_Engine_Bay.jpg",
+    "provider": "wikimedia",
+    "shows": "Tuned turbocharged four-cylinder engine bay of a silver roadster with a carbon-kevlar airbox and intake duct, black charge pipes with blue silicone couplers and a black strut brace across the top",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "turbo-04.jpg",
+    "title": "Turbocharged racing V engine, Deutsches Museum",
+    "creator": "Wilfredor",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turbocharged_racing_V_engine,_Deutsches_Museum.jpg",
+    "provider": "wikimedia",
+    "shows": "Twin-turbo racing V engine on a white museum plinth seen from the front, large central turbocharger compressor inlet flanked by silver heat-shielded exhaust manifolds above a bare aluminium block",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "turbo-05.jpg",
+    "title": "Porsche 956/962 Group C endurance racer turbo, waste gate, intercooler, water cooling",
+    "creator": "wbaiv",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "sourceUrl": "https://www.flickr.com/photos/9998127@N06/6268798402",
+    "provider": "flickr",
+    "shows": "Close-up inside a race-car engine bay showing an aluminium intercooler core at the top, a wastegate, turbocharger and welded steel exhaust pipes with red, blue and purple hose fittings",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1023,
+    "height": 685
+  }
+]

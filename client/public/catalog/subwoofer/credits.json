@@ -1,0 +1,72 @@
+[
+  {
+    "file": "subwoofer-01.jpg",
+    "title": "Alpine SBE-12BR and V-Power MRP-M350",
+    "creator": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alpine_SBE-12BR_and_V-Power_MRP-M350.jpg",
+    "provider": "wikimedia",
+    "shows": "Single 12 inch subwoofer with a silver cone in a grey carpeted bass box sitting in a car boot, with a black finned amplifier and blue, red and white cables beside it; Alpine logo on the box top",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "subwoofer-02.jpg",
+    "title": "JBL-DSC 0889EC",
+    "creator": "JPRoche",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JBL-DSC_0889EC.jpg",
+    "provider": "wikimedia",
+    "shows": "Straight-on close-up of a large subwoofer driver with a grey ribbed paper cone, black dust cap and black frame mounted in a black enclosure",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 1050
+  },
+  {
+    "file": "subwoofer-03.jpg",
+    "title": "JBL DSC9568WP",
+    "creator": "JPRoche",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JBL_DSC9568WP.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of the control end of a black and silver four-channel car amplifier on a white surface, showing gold RCA input sockets, crossover switches and gain dials labelled in white",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 850
+  },
+  {
+    "file": "subwoofer-04.jpg",
+    "title": "Boom boxes - Flickr - exfordy",
+    "creator": "Brian Snelson",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boom_boxes_-_Flickr_-_exfordy.jpg",
+    "provider": "wikimedia",
+    "shows": "Open boot of a blue hatchback with two large black subwoofers set in a black carpeted panel above a blue-lit polished amplifier cover and two lit capacitors; yellow UK number plate visible at the bottom edge",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 833
+  },
+  {
+    "file": "subwoofer-05.jpg",
+    "title": "PTS DSC 1773WP",
+    "creator": "JPRoche",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PTS_DSC_1773WP.jpg",
+    "provider": "wikimedia",
+    "shows": "Custom black leather car boot installation lit in blue, with four gold finned amplifiers in a row above a blue well holding four chrome speaker drivers, and silver capacitors at the sides",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 851
+  }
+]

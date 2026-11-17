@@ -1,0 +1,72 @@
+[
+  {
+    "file": "hoodie-01.jpg",
+    "title": "Black man wearing a black graphic hoodie with a cap (52787674068)",
+    "creator": "Hoodype",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_man_wearing_a_black_graphic_hoodie_with_a_cap_(52787674068).jpg",
+    "provider": "wikimedia",
+    "shows": "Back view of a man wearing a black pullover hoodie with large white 'KING 01' lettering across the back, hood half up over a black cap, head turned aside with sunglasses, against a blurred pale city building",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 961
+  },
+  {
+    "file": "hoodie-02.jpg",
+    "title": "Suede Bomber Jacket (51011161975)",
+    "creator": "ajay_suresh",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Suede_Bomber_Jacket_(51011161975).jpg",
+    "provider": "wikimedia",
+    "shows": "Charcoal grey suede bomber jacket with ribbed collar, cuffs and hem and silver zips, hanging open on a black hanger against a plain white wall, front view",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "hoodie-03.jpg",
+    "title": "Fleece hoodie wearing by adult men (52774092531)",
+    "creator": "Hoodype",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fleece_hoodie_wearing_by_adult_men_(52774092531).jpg",
+    "provider": "wikimedia",
+    "shows": "Side profile of a man with the hood of a sage green fleece hoodie pulled low over his eyes so only nose and chin show, against a plain off-white background",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "hoodie-04.jpg",
+    "title": "Ralph Lauren flight jacket",
+    "creator": "Menswear Market",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ralph_Lauren_flight_jacket.jpg",
+    "provider": "wikimedia",
+    "shows": "Coral-red zip-up bomber flight jacket with ribbed collar, cuffs and hem and a zipped sleeve pocket with small 'POLO' print, front view cut out on a pure white background",
+    "tone": "light",
+    "orientation": "square",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "file": "hoodie-05.jpg",
+    "title": "Hoodie m7agar",
+    "creator": "YoussefTahoun",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hoodie_m7agar.jpg",
+    "provider": "wikimedia",
+    "shows": "Washed charcoal-black pullover hoodie laid flat on a beige shag carpet, with a yellow flame outline and 'SUPERIOR streetwear apparel' print on the chest and white star and gothic text graphics down both sleeves",
+    "tone": "mixed",
+    "orientation": "portrait",
+    "width": 1200,
+    "height": 1600
+  }
+]

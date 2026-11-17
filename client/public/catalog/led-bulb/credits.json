@@ -1,0 +1,72 @@
+[
+  {
+    "file": "led-bulb-01.jpg",
+    "title": "Road-legal H4 LED retrofit (Philips Ultinon Pro6000)",
+    "creator": "Phiarc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road-legal_H4_LED_retrofit_(Philips_Ultinon_Pro6000).jpg",
+    "provider": "wikimedia",
+    "shows": "Single H4 LED retrofit headlight bulb with a silver finned aluminium heat sink, grey collar and black cable, lying on a plain white background",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "led-bulb-02.jpg",
+    "title": "Led car bulbs",
+    "creator": "Sebacalka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Led_car_bulbs.jpg",
+    "provider": "wikimedia",
+    "shows": "Four small LED car bulbs laid in a row on a white background: one large amber bayonet bulb and three wedge-base bulbs in white, red and black",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 960,
+    "height": 639
+  },
+  {
+    "file": "led-bulb-03.jpg",
+    "title": "Lamparaaltabaja-FordEcosport",
+    "creator": "Ezarate",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamparaaltabaja-FordEcosport.jpg",
+    "provider": "wikimedia",
+    "shows": "Single H4 halogen headlight bulb with a clear glass capsule and silver metal base with three prongs, lying on a pale grey-white surface",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 835
+  },
+  {
+    "file": "led-bulb-04.jpg",
+    "title": "Compare of old and new orange car light bulb",
+    "creator": "Sebacalka",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compare_of_old_and_new_orange_car_light_bulb.jpg",
+    "provider": "wikimedia",
+    "shows": "Two amber bayonet-base car bulbs side by side on a white background, an orange glass filament bulb on the left and an LED replacement bulb on the right",
+    "tone": "light",
+    "orientation": "square",
+    "width": 960,
+    "height": 958
+  },
+  {
+    "file": "led-bulb-05.jpg",
+    "title": "Road-legal H4 LED retrofit close-up (Philips Ultinon Pro6000)",
+    "creator": "Phiarc",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road-legal_H4_LED_retrofit_close-up_(Philips_Ultinon_Pro6000).jpg",
+    "provider": "wikimedia",
+    "shows": "Extreme close-up of the yellow LED chips and silver aluminium body of an LED headlight bulb on a white background",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

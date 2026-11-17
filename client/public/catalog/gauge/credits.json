@@ -1,0 +1,72 @@
+[
+  {
+    "file": "gauge-01.jpg",
+    "title": "Tachometer display on 2012 Honda Civic",
+    "creator": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tachometer_display_on_2012_Honda_Civic.jpg",
+    "provider": "wikimedia",
+    "shows": "Glowing blue tachometer dial with white numerals 0 to 8, white needle and red redline band on a black instrument panel at night, gear position letters lit at right, close-up",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 820
+  },
+  {
+    "file": "gauge-02.jpg",
+    "title": "Close-up of engine oil temperature gauge on car dashboard (49006320293)",
+    "creator": "Ivan Radic",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_of_engine_oil_temperature_gauge_on_car_dashboard_(49006320293).jpg",
+    "provider": "wikimedia",
+    "shows": "Macro of an engine oil temperature gauge on a black dial with glowing red numerals and markings and an illuminated blue needle pointing at 90 degrees C",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "gauge-03.png",
+    "title": "Blitz RacingMeter gauge cluster installed in a 2004 Subaru WRX STI",
+    "creator": "Indie102",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blitz_RacingMeter_gauge_cluster_installed_in_a_2004_Subaru_WRX_STI.png",
+    "provider": "wikimedia",
+    "shows": "Three round white-faced aftermarket gauges (turbo boost and two temperature gauges) with silver bezels in a gloss black triple gauge pod mounted on top of a grey dashboard, front view",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "gauge-04.jpg",
+    "title": "Audi TT 2014 (13558467515)",
+    "creator": "Robert Basic from Germany",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_TT_2014_(13558467515).jpg",
+    "provider": "wikimedia",
+    "shows": "Fully digital instrument cluster screen behind a steering wheel showing two round virtual dials (rev counter left, speed right) on a dark blue-grey display with amber warning lights above",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "gauge-05.jpg",
+    "title": "HUDWAY Drive on BMW dashboard",
+    "creator": "Yndima",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HUDWAY_Drive_on_BMW_dashboard.jpg",
+    "provider": "wikimedia",
+    "shows": "Black aftermarket head-up display unit sitting on a car dashboard, projecting a turn-right navigation arrow and a message onto a clear combiner screen in front of the windscreen, driver's view of a city bridge road in daylight",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 960,
+    "height": 640
+  }
+]

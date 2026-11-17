@@ -1,0 +1,72 @@
+[
+  {
+    "file": "roof-rack-01.jpg",
+    "title": "Land Rover Defender 110 (L316), right front view with roof rack",
+    "creator": "Pittigrilli",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_110_(L316),_right_front_view_with_roof_rack.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a black flat platform roof rack with a wide LED light bar mounted on its front edge, fitted on the roof of a dark grey Land Rover Defender, seen from the front corner on a city street",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "roof-rack-02.jpg",
+    "title": "Auto 2025, Zurich (20251029-P1073680)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Auto_2025,_Zurich_(20251029-P1073680).jpg",
+    "provider": "wikimedia",
+    "shows": "Bright orange tubular roof basket carrying two black hard cargo cases on a matte copper-bronze compact SUV with black off-road wheels and recovery boards on the rear side window, rear three-quarter view on a gravel display at a motor show",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "roof-rack-03.jpg",
+    "title": "Ford Kuga, Auto 2025, Zurich (20251029-P1074516)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ford_Kuga,_Auto_2025,_Zurich_(20251029-P1074516).jpg",
+    "provider": "wikimedia",
+    "shows": "Matte black aerodynamic roof box on black crossbars on top of a white compact SUV with dark alloy wheels, front three-quarter view in a dark motor show hall",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "roof-rack-04.jpg",
+    "title": "Lexus LM 350h AWD AAWH15 Sonic Quartz with cargo box + roof rack 01",
+    "creator": "Ethan Llamas",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lexus_LM_350h_AWD_AAWH15_Sonic_Quartz_with_cargo_box_%2B_roof_rack_01.jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss white roof cargo box on black crossbars on top of a pearl white luxury MPV, front three-quarter view on a city street",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "roof-rack-05.jpg",
+    "title": "Thule Dynamic roof box (11726731603)",
+    "creator": "EHRENBERG Kommunikation",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thule_Dynamic_roof_box_(11726731603).jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss black aerodynamic roof box photographed alone against a plain black studio background, side three-quarter view, with a small white Thule logo visible on its side",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 759
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "number-plate-01.jpg",
+    "title": "License plate of a Beijing-based automobile (20220116152524)",
+    "creator": "N509FZ",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:License_plate_of_a_Beijing-based_automobile_(20220116152524).jpg",
+    "provider": "wikimedia",
+    "shows": "Straight-on close-up of a blue Chinese number plate with white embossed characters and four round fixing caps, mounted on the white front bumper of a car below a chrome and black slatted grille",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "number-plate-02.jpg",
+    "title": "KLE Kfz-Kennzeichen in Kreis Kleve PM240915 01",
+    "creator": "Pieter Delicaat",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KLE_Kfz-Kennzeichen_in_Kreis_Kleve_PM240915_01.jpg",
+    "provider": "wikimedia",
+    "shows": "Macro close-up of the left half of a white German EU number plate with black embossed letters 'KLE', a blue EU band and a round registration seal, held in a plain black plastic plate frame on a white car",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 685
+  },
+  {
+    "file": "number-plate-03.jpg",
+    "title": "Calandre d'Alpine Rallye - Epoqu'auto 2012",
+    "creator": "Clément Bucco-Lechat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Calandre_d%27Alpine_Rallye_-_Epoqu%27auto_2012.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a classic black French number plate with raised silver characters on the nose of a bright yellow Alpine sports car, with silver ALPINE lettering above and two round headlamps at the edges",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 857
+  },
+  {
+    "file": "number-plate-04.jpg",
+    "title": "Virginia Vanity Plate (8377783010)",
+    "creator": "Tony Alter",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virginia_Vanity_Plate_(8377783010).jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a colourful personalised Virginia licence plate with dark blue characters and a cartoon parrot graphic, fixed with two chrome screws into the recess of a glossy red car bumper with a chrome badge above",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "number-plate-05.jpg",
+    "title": "Deutsches Kfz-Kennzeichen QQ.HN 440",
+    "creator": "Walser.FL",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deutsches_Kfz-Kennzeichen_QQ.HN_440.jpg",
+    "provider": "wikimedia",
+    "shows": "Straight-on close-up of a two-line white German export number plate with black embossed characters, a blue corner tab and a round blue inspection sticker, held on with black cable ties",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 684
+  }
+]

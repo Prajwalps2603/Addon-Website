@@ -1,0 +1,72 @@
+[
+  {
+    "file": "spoiler-01.jpg",
+    "title": "Nissan CBA-R35 GT-R Premium edition (23101511122)",
+    "creator": "先従隗始",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nissan_CBA-R35_GT-R_Premium_edition_(23101511122).jpg",
+    "provider": "wikimedia",
+    "shows": "Large gloss carbon-fibre GT wing with end plates mounted on the boot of a pearl-white Nissan GT-R, rear close-up in a car park with other cars behind",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "spoiler-02.jpg",
+    "title": "2013 Porsche 911 Carrera S (8233337583)",
+    "creator": "steve lyon",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_Porsche_911_Carrera_S_(8233337583).jpg",
+    "provider": "wikimedia",
+    "shows": "Body-coloured gloss red fixed rear spoiler on the engine lid of a red Porsche 911 Carrera S, rear three-quarter close-up with tail light, indoor show lighting",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 850
+  },
+  {
+    "file": "spoiler-03.jpg",
+    "title": "2020 Ford Mustang Shelby GT500 Coupe, Cleveland Auto Show (Rear)",
+    "creator": "Syntaxlord",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_Coupe,_Cleveland_Auto_Show_(Rear).jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss black boot-lid spoiler on a silver Ford Mustang Shelby GT500 with black racing stripes, lit red tail lights and quad exhaust tips, rear view on a white show floor",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 841
+  },
+  {
+    "file": "spoiler-04.jpg",
+    "title": "Abarth 695 Competizione (6143612925)",
+    "creator": "Autoviva",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abarth_695_Competizione_(6143612925).jpg",
+    "provider": "wikimedia",
+    "shows": "Roof spoiler with a matte grey end plate above the rear window of a matte silver-white Abarth 695 hatchback, side close-up at an indoor motor show",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 857
+  },
+  {
+    "file": "spoiler-05.jpg",
+    "title": "BMW M4 GTS 02",
+    "creator": "Arnaud 25",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_M4_GTS_02.jpg",
+    "provider": "wikimedia",
+    "shows": "Carbon-fibre GT rear wing on black stands on the boot of a matte dark grey BMW M4 GTS coupe with orange wheels, rear three-quarter view in a showroom",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

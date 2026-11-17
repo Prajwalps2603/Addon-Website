@@ -1,0 +1,72 @@
+[
+  {
+    "file": "speaker-01.jpg",
+    "title": "Close-up view of a car door speaker with modern design and texture highlighting sound quality enhancements",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Close-up_view_of_a_car_door_speaker_with_modern_design_and_texture_highlighting_sound_quality_enhancements.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a small black perforated-metal speaker grille set into a black leather-grain car door panel beside the chrome door handle, shallow depth of field",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "speaker-02.jpg",
+    "title": "Bowers & Wilkins Speaker & An integrated screen on a door panel",
+    "creator": "RpM Tartar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bowers_%26_Wilkins_Speaker_%26_An_integrated_screen_on_a_door_panel.jpg",
+    "provider": "wikimedia",
+    "shows": "Brushed silver metal speaker grille with a geometric cut-out pattern in a luxury car door, the speaker behind it glowing red from ambient lighting, next to a small touch screen and door lock buttons",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 720
+  },
+  {
+    "file": "speaker-03.jpg",
+    "title": "Tweeter IMG018EC",
+    "creator": "JPRoche",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tweeter_IMG018EC.jpg",
+    "provider": "wikimedia",
+    "shows": "Macro of a black soft-dome tweeter with cross-head screws on a black textured round faceplate, mounted in a black wood-grain speaker cabinet",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 1068
+  },
+  {
+    "file": "speaker-04.jpeg",
+    "title": "Infinity Reference 6022si 6.5inch car speaker angle view",
+    "creator": "Zuzu",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Infinity_Reference_6022si_6.5inch_car_speaker_angle_view.jpeg",
+    "provider": "wikimedia",
+    "shows": "Pair of 6.5 inch coaxial car speakers lying on beige carpet, one face up showing a silver cone with a silver centre tweeter and dark blue rubber surround, the other face down showing the magnet with an Infinity label",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 671
+  },
+  {
+    "file": "speaker-05.jpg",
+    "title": "Car speaker 10cm",
+    "creator": "Sobinsiril",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Car_speaker_10cm.jpg",
+    "provider": "wikimedia",
+    "shows": "Round 10 cm coaxial car speaker with a black cone and a black-and-lime-green centre tweeter bridge, screwed into a dark plastic car trim panel with the cover removed, close-up at an angle",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "light-bar-01.jpg",
+    "title": "Mint 400 Revisited (53594949942)",
+    "creator": "Mobilus In Mobili",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mint_400_Revisited_(53594949942).jpg",
+    "provider": "wikimedia",
+    "shows": "Gold and black off-road trophy truck parked on a city street at night with two stacked rows of LED light bars mounted in its front grille opening, large knobbly tyres, pink-lit buildings and a mural behind.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "light-bar-02.jpg",
+    "title": "2013 Jeep Wrangler (JK) Overland 3-door hardtop (17214082868)",
+    "creator": "Jeremy from Sydney, Australia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_Jeep_Wrangler_(JK)_Overland_3-door_hardtop_(17214082868).jpg",
+    "provider": "wikimedia",
+    "shows": "Low front view of a lime green Jeep Wrangler with three slim single-row LED light bars mounted along the top of its black front bumper, below the round headlights and seven-slot grille, pale sky behind.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "light-bar-03.jpg",
+    "title": "Land Rover Defender 110 (L316), right front view with roof rack",
+    "creator": "Pittigrilli",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Land_Rover_Defender_110_(L316),_right_front_view_with_roof_rack.jpg",
+    "provider": "wikimedia",
+    "shows": "Double-row LED light bar mounted on the front edge of a black roof rack on a dark grey Land Rover Defender, seen from the front right corner above the windscreen, with city buildings behind.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "light-bar-04.jpg",
+    "title": "KC Lights Jeep Wagoneer ",
+    "creator": "Tbonetu",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KC_Lights_Jeep_Wagoneer_.jpg",
+    "provider": "wikimedia",
+    "shows": "Lifted olive green vintage Jeep Wagoneer on rocky ground with a row of eight round LED pod lights with yellow branded covers across the roof rack, extra round LED lamps on the black steel bumper and windscreen pillar, and a front winch.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "light-bar-05.jpg",
+    "title": "Headlights and bumper of Toyota Land Cruiser J60 with auxiliary LED headlights",
+    "creator": "Pittigrilli",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Headlights_and_bumper_of_Toyota_Land_Cruiser_J60_with_auxiliary_LED_headlights.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of two square six-LED pod lights in black housings bolted to the black steel bumper of a dark Toyota Land Cruiser, below an amber indicator lens and rectangular headlights.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

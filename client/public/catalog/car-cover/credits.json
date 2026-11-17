@@ -1,0 +1,72 @@
+[
+  {
+    "file": "car-cover-01.jpg",
+    "title": "2011-01-30 Covered car in parking deck (near)",
+    "creator": "Ildar Sagdejev (Specious)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-01-30_Covered_car_in_parking_deck_(near).jpg",
+    "provider": "wikimedia",
+    "shows": "Side profile of a car fully wrapped in a blue fitted fabric car cover, parked alone in a concrete parking deck under warm orange light, only the alloy wheels showing",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "car-cover-02.jpg",
+    "title": "BYD, Yangwang U8, GIMS 2024, Le Grand-Saconnex (GIMS0161)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BYD,_Yangwang_U8,_GIMS_2024,_Le_Grand-Saconnex_(GIMS0161).jpg",
+    "provider": "wikimedia",
+    "shows": "Large SUV completely draped in a glossy silver satin cover on a dark motor-show floor, front three-quarter view with soft spotlights on the fabric",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "car-cover-03.jpg",
+    "title": "Covered car (1)",
+    "creator": "Mathious Ier",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covered_car_(1).jpg",
+    "provider": "wikimedia",
+    "shows": "Low sports car under a snug black stretch-fabric indoor dust cover in an underground garage bay, chrome wire wheels visible below the hem",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "car-cover-04.jpg",
+    "title": "Guess the car... (15222285840)",
+    "creator": "Riley",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guess_the_car..._(15222285840).jpg",
+    "provider": "wikimedia",
+    "shows": "Saloon car parked at a kerb under a loose light-grey fabric outdoor car cover in bright sunshine, pink cherry blossom and a dark wooden fence behind, rear three-quarter view",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "car-cover-05.jpg",
+    "title": "Covered parked car on Phuket Island",
+    "creator": "Alexander Baranov",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covered_parked_car_on_Phuket_Island.jpg",
+    "provider": "wikimedia",
+    "shows": "Car parked at a roadside under a crinkled silver reflective waterproof body cover with mirror pockets, seen from the front corner in bright sun",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

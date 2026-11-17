@@ -1,0 +1,72 @@
+[
+  {
+    "file": "rooftop-tent-01.jpg",
+    "title": "Roamify Roof Top Tent",
+    "creator": "Larissa Janzen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roamify_Roof_Top_Tent.jpg",
+    "provider": "wikimedia",
+    "shows": "Two overland pickup trucks, a dark grey Toyota Tundra and a white Nissan with a snorkel and steel bumper, parked on a pebble riverbed with olive wedge-style hard-shell rooftop tents opened, autumn hills behind",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "rooftop-tent-02.jpg",
+    "title": "Toyota Hilux D-4D with roof tents",
+    "creator": "Hans Hillewaert",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota_Hilux_D-4D_with_roof_tents.jpg",
+    "provider": "wikimedia",
+    "shows": "White Toyota Hilux pickup with two olive-green fold-out soft-shell rooftop tents opened on its roof, two aluminium ladders down to the ground, warm evening light against a clear blue sky",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "rooftop-tent-03.jpg",
+    "title": "BAS 24, Brussels (P1170454-RR)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BAS_24,_Brussels_(P1170454-RR).jpg",
+    "provider": "wikimedia",
+    "shows": "Side profile of a black Jeep Wrangler Rubicon on all-terrain tyres at an indoor show, carrying a raised black-and-grey hard-shell pop-up rooftop tent, a rolled black side awning and a black jerry can on the roof rack",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "rooftop-tent-04.jpg",
+    "title": "00 3291 Zelt auf dem Autodach",
+    "creator": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:00_3291_Zelt_auf_dem_Autodach.jpg",
+    "provider": "wikimedia",
+    "shows": "Grey Volkswagen compact SUV at a grassy campsite with an orange soft-shell rooftop tent under a black rainfly opened on the roof and a telescopic ladder at the side, front three-quarter view",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "rooftop-tent-05.jpg",
+    "title": "0 4293 Zelt auf dem Autodach",
+    "creator": "W. Bulach",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:0_4293_Zelt_auf_dem_Autodach.jpg",
+    "provider": "wikimedia",
+    "shows": "Rear view of a black van on a campsite lawn with an olive-green rooftop tent opened on the roof rack and a matching olive awning wall sloping to the ground, tailgate open showing a cool box and camping gear",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 996
+  }
+]

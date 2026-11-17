@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <title>Addon Automotive</title>
+    <!--app-head-->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/brand/icon-192.png" type="image/png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- The faces every first screen uses. Phones take the 39 KB italic, desktops the width-axis italic for display type. -->
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+      href="/node_modules/@fontsource-variable/archivo/files/archivo-latin-wght-normal.woff2"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+      media="(max-width: 63.99rem)"
+      href="/node_modules/@fontsource-variable/archivo/files/archivo-latin-wght-italic.woff2"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+      media="(min-width: 64rem)"
+      href="/node_modules/@fontsource-variable/archivo/files/archivo-latin-wdth-italic.woff2"
+    />
+    <!-- External file, not inline: the production CSP is script-src 'self'. Sets data-theme before first paint. -->
+    <script src="/theme-init.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>Addon Automotive needs JavaScript to show the store. Please turn it on and reload.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

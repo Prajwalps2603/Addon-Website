@@ -1,0 +1,72 @@
+[
+  {
+    "file": "steering-wheel-01.jpg",
+    "title": "IAA 2017, Frankfurt (1Y7A3113)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IAA_2017,_Frankfurt_(1Y7A3113).jpg",
+    "provider": "wikimedia",
+    "shows": "Three-spoke leather steering wheel in black with dark navy top and bottom rim sections, satin silver lower spoke trim and multifunction buttons, mounted flat on a plain light grey display wall, front view.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "steering-wheel-02.jpg",
+    "title": "Geneva MotorShow 2013 - Noble carbon Sport steering wheel",
+    "creator": "Clément Bucco-Lechat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geneva_MotorShow_2013_-_Noble_carbon_Sport_steering_wheel.jpg",
+    "provider": "wikimedia",
+    "shows": "Flat-bottomed sport steering wheel in black leather with beige perforated leather side grips and contrast stitching, inside a sports car cockpit with carbon-fibre dashboard trim and a round black gear knob at left.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 848
+  },
+  {
+    "file": "steering-wheel-03.jpg",
+    "title": "MITSUBISHI PAJERO SPORT STEERING WHEEL China",
+    "creator": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MITSUBISHI_PAJERO_SPORT_STEERING_WHEEL_China.jpg",
+    "provider": "wikimedia",
+    "shows": "Four-spoke black stitched leather multifunction steering wheel with satin silver spoke trim, seen at an angle from the driver's door in a modern SUV with a black dashboard and leather gear selector.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "steering-wheel-04.jpg",
+    "title": "Triumph Spitfire sports car cockpit",
+    "creator": "Deerpeter",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Triumph_Spitfire_sports_car_cockpit.jpg",
+    "provider": "wikimedia",
+    "shows": "Classic three-spoke sport steering wheel with slotted brushed-aluminium spokes and a black leather rim with perforated grip sections and red stitching, in an open-top roadster with a wood dashboard and tan leather seats.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "steering-wheel-05.jpg",
+    "title": "Dülmen, Automeile auf dem Kartoffelmarkt, Toyota GT86 -- 2019 -- 9913",
+    "creator": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Automeile_auf_dem_Kartoffelmarkt,_Toyota_GT86_--_2019_--_9913.jpg",
+    "provider": "wikimedia",
+    "shows": "Three-spoke racing steering wheel with a black suede (alcantara-style) rim, yellow centre marker and bare black metal spokes, inside a stripped race car with a red roll cage and carbon-fibre panel.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

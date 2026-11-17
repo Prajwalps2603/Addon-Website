@@ -1,0 +1,72 @@
+[
+  {
+    "file": "reverse-camera-01.jpg",
+    "title": "Car parking sensor closeup",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Car_parking_sensor_closeup.jpg",
+    "provider": "wikimedia",
+    "shows": "Extreme close-up of one round black ultrasonic parking sensor set flush in a gloss black car bumper, just above a chrome trim strip.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "reverse-camera-02.jpg",
+    "title": "2013 Volkswagen Golf Variant rear view camera display",
+    "creator": "Kārlis Dambrāns from Latvia",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013_Volkswagen_Golf_Variant_(10186220745).jpg",
+    "provider": "wikimedia",
+    "shows": "Car infotainment screen showing a live reversing camera view of a gravel lot with green and red guide lines and a top-down park-distance graphic of a white car, framed by dark brushed dashboard trim.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 855
+  },
+  {
+    "file": "reverse-camera-03.jpg",
+    "title": "2017 Honda Ridgeline RTL backup camera displayed in color audio system",
+    "creator": "Kelvin Eng",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2017_Honda_Ridgeline_RTL-backup_camera_displayed_in_color_audio_system.jpg",
+    "provider": "wikimedia",
+    "shows": "Black factory car stereo head unit, straight on, with its colour screen showing a backup camera view of a driveway with yellow guide lines and the words 'Check Your Surroundings'.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 704
+  },
+  {
+    "file": "reverse-camera-04.jpg",
+    "title": "VW Golf VII parking sensor 02",
+    "creator": "Basotxerri",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VW_Golf_VII_-_Parking_sensor_02.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a round body-coloured parking sensor in the silver wheel-arch edge of a car bumper, with the black tyre and part of an alloy wheel beside it.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 961
+  },
+  {
+    "file": "reverse-camera-05.jpg",
+    "title": "2013-2014 Honda Ridgeline rearview camera monitor",
+    "creator": "John Pollard",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2013-2014_Honda_Ridgeline_Rearview_Camera_Monitor_(for_non-navigation_equipped_models).jpg",
+    "provider": "wikimedia",
+    "shows": "Black interior rear-view mirror with a small built-in screen on its left side showing the reversing camera picture with guide lines, seen from below against the windscreen and beige roof console.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 883
+  }
+]

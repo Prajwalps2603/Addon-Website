@@ -1,0 +1,19 @@
+{
+  "name": "addon-store",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Addon Auto Motive online store: Express API + React storefront and admin",
+  "scripts": {
+    "setup": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently -k -n api,web -c blue,magenta \"npm --prefix server run dev\" \"npm --prefix client run dev\"",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server run start",
+    "seed": "npm --prefix server run seed",
+    "photos": "node scripts/optimize-photos.mjs",
+    "test": "npm --prefix server test",
+    "typecheck": "npm --prefix client run typecheck"
+  },
+  "devDependencies": {
+    "concurrently": "10.0.7"
+  }
+}

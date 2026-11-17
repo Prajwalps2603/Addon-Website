@@ -1,0 +1,72 @@
+[
+  {
+    "file": "air-freshener-01.jpg",
+    "title": "Car dashboard on highway (Unsplash)",
+    "creator": "Arkady Lifshits",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Car_dashboard_on_highway_(Unsplash).jpg",
+    "provider": "wikimedia",
+    "shows": "Plain black rectangular tag-style air freshener hanging on a thin string from a rear-view mirror, seen from the driver's seat at dusk with orange tail-light bokeh and a glowing instrument cluster.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 845
+  },
+  {
+    "file": "air-freshener-02.jpg",
+    "title": "Strawberry Car Perfume in Zabrze, Silesian Voivodeship, Poland, October 2018",
+    "creator": "MichalPL",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strawberry_Car_Perfume_in_Zabrze,_Silesian_Voivodeship,_Poland,_October_2018.jpg",
+    "provider": "wikimedia",
+    "shows": "Small round glass car perfume bottle holding red liquid, with a stacked pale wooden cap and red braided cord, hanging in front of a windscreen with a car park blurred behind, tall portrait close-up.",
+    "tone": "mixed",
+    "orientation": "portrait",
+    "width": 1280,
+    "height": 1707
+  },
+  {
+    "file": "air-freshener-03.jpg",
+    "title": "Black Little Trees car fresheners",
+    "creator": "Tobyotter",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Little_Trees_car_fresheners.jpg",
+    "provider": "wikimedia",
+    "shows": "Bunch of black tree-shaped hanging air fresheners with white Car-Freshner and Black Ice labels dangling from a rear-view mirror, viewed through the side window.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "air-freshener-04.jpg",
+    "title": "Car-bokeh-air-freshener (23956581049)",
+    "creator": "Pixel.la Free Stock Photos",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Car-bokeh-air-freshener_(23956581049).jpg",
+    "provider": "wikimedia",
+    "shows": "Silhouette of a small hanging car perfume bottle with a flower-shaped cap on a black cord against purple and orange bokeh lights at night.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "air-freshener-05.jpg",
+    "title": "Febreze Car Air Freshener",
+    "creator": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Febreze_Car_Air_Freshener.jpg",
+    "provider": "wikimedia",
+    "shows": "Square black vent-clip air freshener with a carbon-weave face and a translucent blue liquid capsule, clipped onto a dashboard air vent, tight close-up with a little dust visible on the dark trim.",
+    "tone": "dark",
+    "orientation": "square",
+    "width": 1280,
+    "height": 1300
+  }
+]

@@ -1,0 +1,1260 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/archivo/wght.css';
+@import '@fontsource-variable/archivo/wght-italic.css';
+@import '@fontsource-variable/martian-mono/wght.css';
+@import '@fontsource-variable/noto-sans-devanagari/wght.css';
+
+/*
+ * Addon Auto Motive design tokens: "Pit Board", in black, white and Tread Red.
+ * Order: fonts, raw tokens per theme, planes, Tailwind theme mapping, base, utilities, motion, print.
+ * Pages use the utilities this file produces (see client/DESIGN.md). They never write a hex value.
+ *
+ * Red has two jobs and they never share a look:
+ * - brand (Tread Red #d71920): a FILL for the primary action and brand moments, always with white ink.
+ * - stop (danger): a deep oxblood in the light theme and a pale rose in the dark theme, drawn as an
+ *   outlined or tinted box, always with an icon and words. Errors, "does not fit", sold out.
+ */
+
+/* dark: follows <html data-theme="dark">, set before first paint by /theme-init.js */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+/* ---------------------------------------------------------------- fonts */
+
+/*
+ * Archivo's width axis (62 to 125) widens display type towards the logo's lettering.
+ * The file is 102 KB, so it is declared for desktop widths only. On phones the display
+ * stack falls through to the 39 KB italic and headlines stay at normal width.
+ */
+@media (min-width: 64rem) {
+  @font-face {
+    font-family: 'Archivo Wide';
+    font-style: italic;
+    font-display: swap;
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    src: url('../../node_modules/@fontsource-variable/archivo/files/archivo-latin-wdth-italic.woff2')
+      format('woff2-variations');
+    unicode-range:
+      U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329,
+      U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+}
+
+/* Arial resized to Archivo's measured metrics (ascent 878, descent 210, 1000 upm), so text does not jump when the web font arrives. */
+@font-face {
+  font-family: 'Archivo Fallback';
+  src: local('Arial'), local('Roboto'), local('Helvetica Neue');
+  size-adjust: 104%;
+  ascent-override: 84%;
+  descent-override: 20%;
+  line-gap-override: 0%;
+}
+
+/* ---------------------------------------------------------------- raw tokens */
+
+:root {
+  /* Stem angle measured from the owner's wordmark (7 px run over a 19 px cap height). */
+  --lean: 20deg;
+
+  /*
+   * Tread Red: the hue of the logo's tread (358 degrees, sampled from addon-logo.png) at the strength of the
+   * flat red on the owner's offer poster, set just deep enough for white 15 px type to hold 5.2:1.
+   */
+  --red: #d71920;
+  --red-press: #b5141a;
+  /* Deprecated: the old Pit Yellow names. They now resolve to Tread Red so nothing breaks. Use --red. */
+  --yellow: var(--red);
+  --yellow-press: var(--red-press);
+  --overlay: rgb(12 13 15 / 0.56);
+
+  --dur-quick: 120ms;
+  --dur-base: 200ms;
+  --dur-settle: 280ms;
+  --dur-slow: 420ms;
+
+  --display-stretch: 100%;
+
+  /* Height of the fixed mobile bar. Toasts and floating buttons sit above it. */
+  --bottom-bar-h: 3.5rem;
+}
+
+@media (min-width: 48rem) {
+  :root {
+    --bottom-bar-h: 0px;
+  }
+}
+
+@media (min-width: 64rem) {
+  :root {
+    --display-stretch: 112%;
+  }
+}
+
+/*
+ * Light set. Also the set inside a product frame (white in both themes), on the board in the dark theme,
+ * and inside a tinted message box ([data-paper]: Callout, the full FitBadge) placed on the red plane.
+ * data-theme normally sits on <html> only. The styleguide also puts it on a wrapper to show both themes
+ * side by side; a board inside such a wrapper still follows the page theme.
+ */
+:root,
+[data-theme='light'],
+.plane-frame,
+[data-theme='dark'] .plane-board,
+:is(.plane-brand, .plane-pit) [data-paper] {
+  color-scheme: light;
+
+  --page: #ffffff;
+  --surface: #f1f2f4;
+  --surface-2: #e4e6ea;
+  --raised: #ffffff;
+
+  --ink: #0c0d0f;
+  --ink-2: #2a2d33;
+  --muted: #545a64;
+  --line: #d3d6dc;
+  --line-strong: #767c87;
+
+  --brand: var(--red);
+  --brand-ink: #ffffff;
+  --brand-press: var(--red-press);
+  --brand-soft: #fdeaea;
+  /* Red as text, for display-size brand moments only. Never for small text, never for errors. */
+  --brand-text: #c8161e;
+  /* Deprecated aliases of the brand set (the old Pit Yellow names). */
+  --pit: var(--brand);
+  --pit-ink: var(--brand-ink);
+  --pit-press: var(--brand-press);
+  --pit-soft: var(--brand-soft);
+
+  --fit: #0b6e37;
+  --fit-ink: #ffffff;
+  --fit-soft: #e2f3e9;
+  --warn: #9a4b00;
+  --warn-ink: #ffffff;
+  --warn-soft: #ffeedb;
+  /* Danger: deep oxblood, a clear step darker and cooler than Tread Red. */
+  --stop: #8f0f1c;
+  --stop-ink: #ffffff;
+  --stop-press: #6e0b15;
+  --stop-soft: #f6e8ea;
+  --info: #1a5a9e;
+  --info-ink: #ffffff;
+  --info-soft: #e5effa;
+  --best: #6b2bd9;
+  --best-ink: #ffffff;
+  --best-soft: #efe8fc;
+
+  --focus: #0c0d0f;
+}
+
+/*
+ * Everything below is screen only. In print the light set above applies to every element,
+ * so invoices and fitting cards come out black on white whatever theme the shopper uses.
+ */
+@media screen {
+  /* Dark set ("night session"). Also the set on the board in the light theme. */
+  [data-theme='dark'],
+  :root:not([data-theme='dark']) .plane-board {
+    color-scheme: dark;
+
+    --page: #0c0d0f;
+    --surface: #16181c;
+    --surface-2: #22252b;
+    --raised: #1b1d22;
+
+    --ink: #f5f6f7;
+    --ink-2: #d9dbdf;
+    --muted: #a2a8b3;
+    --line: #2c3038;
+    --line-strong: #717886;
+
+    --brand: var(--red);
+    --brand-ink: #ffffff;
+    --brand-press: var(--red-press);
+    --brand-soft: #3a1214;
+    --brand-text: #ff5c62;
+    --pit: var(--brand);
+    --pit-ink: var(--brand-ink);
+    --pit-press: var(--brand-press);
+    --pit-soft: var(--brand-soft);
+
+    --fit: #35d07f;
+    --fit-ink: #0c0d0f;
+    --fit-soft: #0e2a1b;
+    --warn: #ff9a3d;
+    --warn-ink: #0c0d0f;
+    --warn-soft: #33200c;
+    /* Danger at night: a pale rose, far lighter than the brand red fill, with black ink when filled. */
+    --stop: #ffa3ab;
+    --stop-ink: #0c0d0f;
+    --stop-press: #ffc2c7;
+    --stop-soft: #2c1519;
+    --info: #7db7ff;
+    --info-ink: #0c0d0f;
+    --info-soft: #11263f;
+    --best: #b794ff;
+    --best-ink: #0c0d0f;
+    --best-soft: #241a3d;
+
+    --focus: #f5f6f7;
+  }
+
+  [data-theme='dark'] {
+    --overlay: rgb(0 0 0 / 0.72);
+  }
+
+  /* In the dark theme the board is a sheet of paper, a step softer than pure white. */
+  [data-theme='dark'] .plane-board {
+    --page: #f5f6f7;
+    --surface: #eceef0;
+    --raised: #ffffff;
+  }
+
+  /*
+   * The red plane (plane-brand; plane-pit is its deprecated old name). Ink is white in both themes.
+   * "brand" flips to black here, so a primary button placed on red becomes the black button.
+   * No state colour reads as text on red: state words sit in a badge or chip, whose soft ground is
+   * white here, or in a solid state fill. Raised sheets are a deeper red so white ink stays legible.
+   */
+  .plane-brand,
+  .plane-pit {
+    color-scheme: dark;
+
+    --page: var(--red);
+    --surface: #c4161d;
+    --surface-2: var(--red-press);
+    --raised: #9e1117;
+
+    --ink: #ffffff;
+    --ink-2: #fff5f5;
+    --muted: #ffeeee;
+    --line: #e85a5f;
+    --line-strong: #ffc2c4;
+
+    --brand: #0c0d0f;
+    --brand-ink: #ffffff;
+    --brand-press: #2a2d33;
+    --brand-soft: var(--red-press);
+    --brand-text: #ffffff;
+    --pit: var(--brand);
+    --pit-ink: var(--brand-ink);
+    --pit-press: var(--brand-press);
+    --pit-soft: var(--brand-soft);
+
+    --fit: #0b6e37;
+    --fit-ink: #ffffff;
+    --fit-soft: #ffffff;
+    --warn: #9a4b00;
+    --warn-ink: #ffffff;
+    --warn-soft: #ffffff;
+    --stop: #8f0f1c;
+    --stop-ink: #ffffff;
+    --stop-press: #6e0b15;
+    --stop-soft: #ffffff;
+    --info: #1a5a9e;
+    --info-ink: #ffffff;
+    --info-soft: #ffffff;
+    --best: #6b2bd9;
+    --best-ink: #ffffff;
+    --best-soft: #ffffff;
+
+    --focus: #ffffff;
+  }
+}
+
+/* ---------------------------------------------------------------- planes */
+
+/*
+ * A plane is a flat region with its own ground. It sets background and ink and re-scopes
+ * every token inside it, so text-muted, border-line, focus rings and components all stay
+ * legible without the page doing anything. Depth comes from planes, not shadows.
+ */
+@layer components {
+  .plane-board,
+  .plane-brand,
+  .plane-pit,
+  .plane-frame {
+    background-color: var(--page);
+    color: var(--ink);
+  }
+}
+
+/* ---------------------------------------------------------------- Tailwind theme */
+
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-black: #0c0d0f;
+
+  --font-*: initial;
+  --font-sans: 'Archivo Variable', 'Archivo Fallback', 'Arial Nova', Arial, system-ui, sans-serif;
+  --font-display: 'Archivo Wide', 'Archivo Variable', 'Archivo Fallback', 'Arial Nova', Arial, sans-serif;
+  --font-mono: 'Martian Mono Variable', ui-monospace, 'Roboto Mono', 'Cascadia Mono', monospace;
+  --font-hindi: 'Archivo Variable', 'Noto Sans Devanagari Variable', 'Nirmala UI', 'Noto Sans Devanagari', sans-serif;
+
+  --radius-*: initial;
+  --radius-control: 2px;
+
+  --shadow-*: initial;
+  --shadow-pop: 0 1px 0 rgb(12 13 15 / 0.06), 0 12px 28px -12px rgb(12 13 15 / 0.3);
+  --shadow-sheet: 0 24px 64px -16px rgb(12 13 15 / 0.42);
+
+  --ease-*: initial;
+  --ease-settle: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-pop: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --animate-roll: roll 0.8s linear infinite;
+  --animate-fade-in: fade-in var(--dur-base) linear both;
+  --animate-fade-out: fade-out var(--dur-quick) linear both;
+  --animate-pop-in: pop-in var(--dur-base) var(--ease-settle) both;
+  --animate-pop-out: pop-out var(--dur-quick) linear both;
+  --animate-lean-in: lean-in var(--dur-settle) var(--ease-settle) both;
+  --animate-lean-out: lean-out var(--dur-quick) linear both;
+  --animate-sheet-in-bottom: sheet-in-bottom var(--dur-settle) var(--ease-settle) both;
+  --animate-sheet-out-bottom: sheet-out-bottom var(--dur-base) ease-in both;
+  --animate-sheet-in-right: sheet-in-right var(--dur-settle) var(--ease-settle) both;
+  --animate-sheet-out-right: sheet-out-right var(--dur-base) ease-in both;
+  --animate-sheet-in-left: sheet-in-left var(--dur-settle) var(--ease-settle) both;
+  --animate-sheet-out-left: sheet-out-left var(--dur-base) ease-in both;
+  --animate-sticker: sticker var(--dur-base) var(--ease-pop) both;
+  --animate-tile-roll: tile-roll 180ms var(--ease-settle) both;
+  --animate-wipe: wipe var(--dur-settle) var(--ease-settle) both;
+  --animate-shimmer: shimmer 1.4s linear infinite;
+  --animate-ticker: ticker 40s linear infinite;
+  /* A slow camera move across a still photo, for cards that would hold a video. */
+  --animate-drift: drift 7s cubic-bezier(0.33, 0, 0.3, 1) infinite alternate;
+
+  @keyframes drift {
+    0% {
+      transform: scale(1.04) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: scale(1.18) translate3d(-3.5%, -3%, 0);
+    }
+  }
+
+  @keyframes roll {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+  }
+  @keyframes fade-out {
+    to {
+      opacity: 0;
+    }
+  }
+  @keyframes pop-in {
+    from {
+      opacity: 0;
+      transform: translateY(4px) scale(0.98);
+    }
+  }
+  @keyframes pop-out {
+    to {
+      opacity: 0;
+      transform: scale(0.98);
+    }
+  }
+  @keyframes lean-in {
+    from {
+      opacity: 0;
+      transform: translateX(12px) skewX(calc(var(--lean) * -0.5));
+    }
+  }
+  @keyframes lean-out {
+    to {
+      opacity: 0;
+      transform: translateX(12px);
+    }
+  }
+  @keyframes sheet-in-bottom {
+    from {
+      transform: translateY(100%);
+    }
+  }
+  @keyframes sheet-out-bottom {
+    to {
+      transform: translateY(100%);
+    }
+  }
+  @keyframes sheet-in-right {
+    from {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes sheet-out-right {
+    to {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes sheet-in-left {
+    from {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes sheet-out-left {
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes sticker {
+    from {
+      transform: scale(0.9);
+    }
+  }
+  @keyframes tile-roll {
+    from {
+      opacity: 0;
+      transform: translateY(-45%);
+    }
+  }
+  /* A fill crossing left to right with its leading edge cut at the lean. */
+  @keyframes wipe {
+    from {
+      clip-path: polygon(0 0, 0 0, -20% 100%, 0 100%);
+    }
+    to {
+      clip-path: polygon(0 0, 120% 0, 100% 100%, 0 100%);
+    }
+  }
+  @keyframes shimmer {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes ticker {
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}
+
+/* `inline` makes .bg-surface emit var(--surface) itself, so the value resolves per theme and per plane at the element. */
+@theme inline {
+  --color-page: var(--page);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-raised: var(--raised);
+  --color-frame: #ffffff;
+  --color-frame-ink: #0c0d0f;
+
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+
+  --color-brand: var(--brand);
+  --color-brand-ink: var(--brand-ink);
+  --color-brand-press: var(--brand-press);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-text: var(--brand-text);
+  /* Fixed Tread Red that does not flip on the red plane: logo tread, print marks. */
+  --color-red: var(--red);
+  /* Deprecated: bg-pit, text-pit-ink and friends. They resolve to the brand set; use the brand names. */
+  --color-pit: var(--brand);
+  --color-pit-ink: var(--brand-ink);
+  --color-pit-press: var(--brand-press);
+  --color-pit-soft: var(--brand-soft);
+
+  --color-fit: var(--fit);
+  --color-fit-ink: var(--fit-ink);
+  --color-fit-soft: var(--fit-soft);
+  --color-warn: var(--warn);
+  --color-warn-ink: var(--warn-ink);
+  --color-warn-soft: var(--warn-soft);
+  --color-stop: var(--stop);
+  --color-stop-ink: var(--stop-ink);
+  --color-stop-press: var(--stop-press);
+  --color-stop-soft: var(--stop-soft);
+  --color-info: var(--info);
+  --color-info-ink: var(--info-ink);
+  --color-info-soft: var(--info-soft);
+  --color-best: var(--best);
+  --color-best-ink: var(--best-ink);
+  --color-best-soft: var(--best-soft);
+
+  --color-focus: var(--focus);
+  --color-overlay: var(--overlay);
+}
+
+/* ---------------------------------------------------------------- base */
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--line);
+  }
+
+  html {
+    /* No browser-made slant or bold: Martian Mono and Devanagari have no italic and must stay upright. */
+    font-synthesis: none;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-padding-top: 5rem;
+    scrollbar-color: var(--line-strong) transparent;
+    accent-color: var(--ink);
+  }
+
+  body {
+    min-height: 100dvh;
+    background-color: var(--page);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--red);
+    color: #ffffff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+
+  /* Text boxes show focus by their fill, never by a ring or a dark border. */
+  :is(input:not([type='radio'], [type='checkbox'], [type='range'], [type='button'], [type='submit']), select, textarea):is(:focus, :focus-visible) {
+    outline: none;
+  }
+
+  button:not(:disabled),
+  [role='button']:not([aria-disabled='true']),
+  summary,
+  select:not(:disabled) {
+    cursor: pointer;
+  }
+
+  a {
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  ::placeholder {
+    color: var(--muted);
+    opacity: 1;
+  }
+
+  :lang(hi) {
+    font-family: var(--font-hindi);
+    line-height: 1.7;
+  }
+}
+
+/* ---------------------------------------------------------------- layout utilities */
+
+/* Page gutter: 16 px on phones, 24 px from 768, 32 px from 1280. Content is at most 1280 px wide. */
+@utility container-page {
+  width: 100%;
+  max-width: 84rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (min-width: 48rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (min-width: 80rem) {
+    padding-inline: 2rem;
+  }
+}
+
+/* Reading measure for policies, guides and long answers. */
+@utility container-prose {
+  width: 100%;
+  max-width: 44rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (min-width: 48rem) {
+    padding-inline: 1.5rem;
+  }
+}
+
+/* Vertical room between page sections. */
+@utility section-y {
+  padding-block: clamp(2.5rem, 7vw, 5rem);
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Grows the hit area of a small control to 44 px without changing how it looks. */
+@utility tap-44 {
+  position: relative;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: max(100%, 2.75rem);
+    height: max(100%, 2.75rem);
+    transform: translate(-50%, -50%);
+  }
+}
+
+/* ---------------------------------------------------------------- type recipes */
+
+/* Each recipe is complete: family, weight, slant, size, leading, tracking, case. Add a colour, nothing else. */
+
+@utility type-display {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: var(--display-stretch);
+  font-size: clamp(2.5rem, 12vw, 5.5rem);
+  line-height: 0.92;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+/*
+ * The offer poster's voice: heavy, condensed italic capitals ("UPGRADE YOUR RIDE"). For brand moments
+ * on the board or the red plane: an offer band, the studio booking call. Condensed where the width
+ * axis is loaded (desktop); on phones it falls back to the normal-width italic, so keep it short.
+ */
+@utility type-poster {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: 78%;
+  font-size: clamp(2.25rem, 11vw, 5rem);
+  line-height: 0.9;
+  letter-spacing: -0.005em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+@utility type-h1 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: var(--display-stretch);
+  font-size: clamp(1.75rem, 6.5vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+@utility type-h2 {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: var(--display-stretch);
+  font-size: clamp(1.375rem, 4.5vw, 2rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+/* Upright title for things a shopper reads to decide: product names, order numbers, admin page titles. */
+@utility type-title {
+  font-weight: 800;
+  font-size: clamp(1.5rem, 5vw, 2.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+@utility type-h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.2;
+  @media (min-width: 48rem) {
+    font-size: 1.25rem;
+  }
+}
+
+@utility type-lead {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  @media (min-width: 48rem) {
+    font-size: 1.125rem;
+  }
+}
+
+@utility type-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@utility type-small {
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+/* Chips, table headers, field group names. Not a kicker above a heading. */
+@utility type-label {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Button sizes set --button-text; the recipe never fights a size utility. */
+@utility type-button {
+  font-style: italic;
+  font-weight: 800;
+  font-size: var(--button-text, 0.9375rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* SKUs, order numbers, PIN codes, coupon codes. Martian Mono has no rupee glyph: never a price. */
+@utility type-code {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+@utility type-board {
+  font-weight: 800;
+  font-size: clamp(1.5rem, 8vw, 3.5rem);
+  line-height: 1;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@utility type-price-xl {
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@utility type-price {
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+@utility type-mrp {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums lining-nums;
+  text-decoration-line: line-through;
+  color: var(--muted);
+}
+
+@utility type-stat {
+  font-weight: 800;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: -0.01em;
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Tabular lining figures for every price, count, timer and stat. */
+@utility tnum {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Inline text link inside running copy. */
+@utility link {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+  &:hover {
+    text-decoration-thickness: 2px;
+  }
+}
+
+/* ---------------------------------------------------------------- motion utilities */
+
+@utility dur-quick {
+  transition-duration: var(--dur-quick);
+}
+@utility dur-base {
+  transition-duration: var(--dur-base);
+}
+@utility dur-settle {
+  transition-duration: var(--dur-settle);
+}
+@utility dur-slow {
+  transition-duration: var(--dur-slow);
+}
+
+/* ---------------------------------------------------------------- stacking */
+
+@utility z-raised {
+  z-index: 10;
+}
+@utility z-sticky {
+  z-index: 20;
+}
+@utility z-header {
+  z-index: 40;
+}
+@utility z-floating {
+  z-index: 45;
+}
+@utility z-overlay {
+  z-index: 50;
+}
+@utility z-popover {
+  z-index: 60;
+}
+@utility z-toast {
+  z-index: 70;
+}
+@utility z-tooltip {
+  z-index: 80;
+}
+
+/* ---------------------------------------------------------------- focus */
+
+@utility focus-ring {
+  &:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+}
+
+/* For controls inside a clipped container, where an outer ring would be cut off. */
+@utility focus-ring-inset {
+  &:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: -2px;
+  }
+}
+
+/* ---------------------------------------------------------------- motifs */
+
+/* Tread strip cut from the logo tyre. Takes the text colour; set the height with h-*. */
+@utility tread {
+  height: 0.625rem;
+  background-color: currentColor;
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 12'%3E%3Cpath d='M0 0h8.5l3 5.4H3zM3 6.6h8.5l-3 5.4H0z'/%3E%3C/svg%3E");
+  mask-repeat: repeat-x;
+  mask-position: left center;
+  mask-size: auto 100%;
+}
+
+/* The right end of a band, cut at the lean. The cut hangs past the box by height x tan(lean): leave it room. */
+@utility lean-end {
+  position: relative;
+  isolation: isolate;
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: inherit;
+    transform-origin: bottom left;
+    transform: skewX(calc(var(--lean) * -1));
+  }
+}
+
+/* The bottom edge of a full-width plane, falling away to the right. Pad the bottom by the same drop. */
+@utility lean-bottom {
+  --lean-drop: clamp(1.25rem, 5vw, 4rem);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - var(--lean-drop)), 0 100%);
+}
+
+/*
+ * Turns with the page: four turns from the top of the page to the bottom. Driven by the
+ * scroll timeline in CSS, with no scroll listener. Browsers without it show the tyre still.
+ */
+@utility roll-scroll {
+  transform-box: fill-box;
+  transform-origin: center;
+  @supports (animation-timeline: scroll()) {
+    animation: roll-scroll linear both;
+    animation-timeline: scroll(root block);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+@keyframes roll-scroll {
+  to {
+    transform: rotate(1440deg);
+  }
+}
+
+/* A parallelogram: skew the box, then put lean-undo on its child so the text stands back up. */
+/* The footer sign-off: big letters that run from ink to brand red. */
+@utility flag-sign {
+  color: transparent;
+  background-image: linear-gradient(to right, var(--ink) 0%, var(--ink) 25%, var(--brand) 85%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+@utility lean-box {
+  transform: skewX(calc(var(--lean) * -1));
+}
+@utility lean-undo {
+  transform: skewX(var(--lean));
+}
+
+/* ---------------------------------------------------------------- reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0s !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------------------------------------------------------------- print */
+
+/* Keeps fills (tiles, QR codes, the red band) when printing. */
+@utility print-exact {
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+@media print {
+  @page {
+    margin: 14mm;
+  }
+
+  html {
+    font-size: 11pt;
+  }
+
+  body {
+    min-height: 0;
+    background: #ffffff;
+  }
+
+  /* Overlays and toasts mark themselves; pages hide their own chrome with print:hidden. */
+  [data-print='hide'] {
+    display: none !important;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  tr,
+  figure,
+  li {
+    break-inside: avoid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  .plane-board,
+  .plane-brand,
+  .plane-pit {
+    outline: 1px solid #0c0d0f;
+  }
+}
+
+/* Checkout form: softer, marketplace-style controls (rounded fields and choice cards, red selection). */
+.checkout-soft :is(input:not([type='radio'], [type='checkbox']), select, textarea),
+.checkout-soft div:has(> span):has(> input) {
+  border-radius: 10px;
+}
+.checkout-soft div:has(> span):has(> input) > input {
+  border-radius: 0;
+}
+.checkout-soft label:has(> span > input[type='radio']) {
+  border-radius: 12px;
+}
+.checkout-soft label.border:has(> span > input[type='radio']) {
+  border-width: 2px;
+  border-color: var(--line);
+}
+.checkout-soft label.border:has(> span > input[type='radio']:checked) {
+  border-color: var(--brand);
+}
+.checkout-soft span > input[type='radio']:checked {
+  border: 2px solid var(--brand);
+  background: var(--page);
+}
+.checkout-soft span > input[type='radio']:checked + span {
+  width: 0.625rem;
+  height: 0.625rem;
+  background: var(--brand);
+}
+
+/* Checkout fields: soft filled boxes that light up red while you type. */
+.checkout-soft :is(input:not([type='radio'], [type='checkbox'], [type='file']), select, textarea):not(div:has(> span):has(> input) > input),
+.checkout-soft div:has(> span):has(> input) {
+  min-height: 3.25rem;
+  border: 1.5px solid transparent !important;
+  border-radius: 12px !important;
+  background-color: var(--surface) !important;
+  box-shadow: none;
+  outline: none !important;
+  transition: background-color 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+}
+.checkout-soft :is(input:not([type='radio'], [type='checkbox'], [type='file']), select, textarea):not(div:has(> span):has(> input) > input):hover,
+.checkout-soft div:has(> span):has(> input):hover {
+  background-color: var(--surface-2) !important;
+}
+.checkout-soft :is(input:not([type='radio'], [type='checkbox'], [type='file']), select, textarea):not(div:has(> span):has(> input) > input):focus,
+.checkout-soft div:has(> span):has(> input):focus-within {
+  background-color: var(--surface-2) !important;
+  border-color: transparent !important;
+  box-shadow: none;
+}
+.checkout-soft :is(input, select, textarea)[aria-invalid='true']:not(div:has(> span):has(> input) > input),
+.checkout-soft div:has(> span):has(> input[aria-invalid='true']) {
+  border-color: var(--stop) !important;
+  background-color: color-mix(in oklab, var(--stop) 6%, var(--page)) !important;
+}
+/* The field inside a box with a prefix: transparent, the box does the styling. */
+.checkout-soft div:has(> span):has(> input) > input {
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.checkout-soft :is(input, textarea)::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+/* "+91" as a small tag inside the mobile number box. */
+.checkout-soft div:has(> span):has(> input) > span:first-child {
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 8px;
+  background: var(--page);
+  color: var(--ink);
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+.checkout-soft div:has(> span):has(> input):focus-within > span:first-child {
+  background: var(--page);
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------- order placed: the success mark */
+.success-mark .success-ring {
+  transform: rotate(-90deg);
+  transform-origin: 48px 48px;
+  stroke-dasharray: 277;
+  stroke-dashoffset: 277;
+  animation: success-ring 600ms cubic-bezier(0.65, 0, 0.35, 1) forwards;
+}
+.success-mark .success-disc {
+  transform: scale(0);
+  transform-origin: 48px 48px;
+  animation: success-disc 450ms cubic-bezier(0.34, 1.56, 0.64, 1) 450ms forwards;
+}
+.success-mark .success-check {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: success-check 380ms cubic-bezier(0.65, 0, 0.35, 1) 800ms forwards;
+}
+.success-mark .success-check path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: success-check 380ms cubic-bezier(0.65, 0, 0.35, 1) 800ms forwards;
+}
+.success-mark .success-ripple {
+  opacity: 0;
+  animation: success-ripple 1100ms cubic-bezier(0.22, 1, 0.36, 1) 650ms 2 both;
+}
+.success-mark .success-bit {
+  opacity: 0;
+  animation: success-bit 900ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes success-ring {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes success-disc {
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes success-check {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes success-ripple {
+  0% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+}
+@keyframes success-bit {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.4);
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--tx)), calc(-50% + var(--ty))) rotate(var(--rot)) scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .success-mark .success-ring,
+  .success-mark .success-check,
+  .success-mark .success-check path {
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+  .success-mark .success-disc {
+    transform: none;
+    animation: none;
+  }
+  .success-mark .success-ripple,
+  .success-mark .success-bit {
+    display: none;
+  }
+}
+
+/* Order page side panel: rounded buttons and code chips to match the rest of the page. */
+.order-soft :is(a, button):is([class*='border'], [class*='bg-ink']) {
+  border-radius: 9999px;
+}
+
+/* Admin panel: soft corners on every control, card and table through the shared radius token. */
+.admin-soft {
+  --radius-control: 12px;
+}
+.admin-soft table[role='table'] tbody tr:hover > td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.admin-soft table[role='table'] tbody tr:hover > td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Admin pages use the whole width beside the sidebar. */
+.admin-soft .container-page {
+  max-width: none;
+}
+
+/* Admin tabs: a soft pill bar instead of underlined tabs. */
+.admin-soft [role='tablist'] {
+  gap: 0.25rem;
+  width: fit-content;
+  max-width: 100%;
+  padding: 0.25rem;
+  border-bottom: 0;
+  border-radius: 9999px;
+  background: var(--surface);
+}
+.admin-soft [role='tab'] {
+  height: 2.25rem;
+  margin: 0;
+  padding-inline: 0.875rem;
+  border-bottom: 0;
+  border-radius: 9999px;
+}
+.admin-soft [role='tab']:hover:not([aria-selected='true']) {
+  background: var(--raised);
+}
+.admin-soft [role='tab'][aria-selected='true'] {
+  background: var(--ink);
+  color: var(--page);
+}
+.admin-soft [role='tab'][aria-selected='true'] > span {
+  color: inherit;
+  opacity: 0.7;
+}
+
+/* Admin: wide content scrolls inside its own box; the page itself never scrolls sideways. */
+.admin-soft main {
+  overflow-x: clip;
+}
+.admin-soft main .grid > * {
+  min-width: 0;
+}
+
+/* Admin breathing room: space under tab bars, roomier table rows, no sideways page scroll. */
+.admin-soft {
+  overflow-x: clip;
+}
+.admin-soft [role='tablist'] {
+  margin-bottom: 1.25rem;
+}
+@media (min-width: 48rem) {
+  .admin-soft table[role='table'] th {
+    padding-block: 0.875rem;
+  }
+  .admin-soft table[role='table'] td {
+    padding-block: 1rem;
+  }
+  .admin-soft table[role='table'] th:first-child,
+  .admin-soft table[role='table'] td:first-child {
+    padding-left: 1.25rem;
+  }
+  .admin-soft table[role='table'] th:last-child,
+  .admin-soft table[role='table'] td:last-child {
+    padding-right: 1.25rem;
+  }
+}
+
+/* Admin empty states: centred on a soft rounded panel. */
+.admin-soft main [data-empty-state] {
+  align-items: center;
+  text-align: center;
+  padding-inline: 1.5rem;
+  border-radius: 22px;
+  background: var(--surface);
+}
+.admin-soft main [data-empty-state] > div {
+  justify-items: center;
+  justify-content: center;
+}
+html:has(.admin-soft) {
+  overflow-x: clip;
+}
+
+/* Admin: the heavy black rules between sections become light lines. */
+.admin-soft main .border-ink {
+  border-color: var(--line);
+}

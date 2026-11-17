@@ -1,0 +1,72 @@
+[
+  {
+    "file": "jerry-can-01.jpg",
+    "title": "Jerrycan 20180507",
+    "creator": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerrycan_20180507.jpg",
+    "provider": "wikimedia",
+    "shows": "Single olive-green 20-litre steel jerry can with a worn matt finish and a yellow tag on the handle, standing upright on grey gravel, three-quarter view from above",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 961
+  },
+  {
+    "file": "jerry-can-02.jpg",
+    "title": "Jeep - spare tire, jerrycan with filters",
+    "creator": "Cjp24",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeep_-_spare_tire,_jerrycan_with_filters.jpg",
+    "provider": "wikimedia",
+    "shows": "Rear corner of an olive-drab military-style Jeep with an olive steel jerry can strapped in its rear carrier beside the spare wheel, parked on dry grass under trees in sunshine",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 1084
+  },
+  {
+    "file": "jerry-can-03.jpg",
+    "title": "Tuning World Bodensee 2018, Friedrichshafen (OW1A0136)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuning_World_Bodensee_2018,_Friedrichshafen_(OW1A0136).jpg",
+    "provider": "wikimedia",
+    "shows": "Three glossy red metal jerry cans held by black straps in a black tubular roof basket on a car roof at an indoor show, close-up with blurred visitors and flags in the background",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "jerry-can-04.jpg",
+    "title": "Our expedition vehicles (8602308313)",
+    "creator": "Ron Knight",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Our_expedition_vehicles_(8602308313).jpg",
+    "provider": "wikimedia",
+    "shows": "Convoy of white Nissan Patrol 4x4s stopped on a dirt road in green highlands, each carrying a row of yellow plastic jerry cans lashed to its roof rack, a few people standing beside the vehicles",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 816
+  },
+  {
+    "file": "jerry-can-05.jpg",
+    "title": "Defender (Namibia) (cropped)",
+    "creator": "Rüdiger Wenzel",
+    "license": "CC BY-SA 3.0 DE",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Defender_(Namibia)_(cropped).JPG",
+    "provider": "wikimedia",
+    "shows": "Side view of a dusty white Land Rover Defender 110 overland rental 4x4 with a bright yellow hard storage case strapped to the front of its roof rack, a folded khaki rooftop tent behind it, a snorkel and a black bull bar",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 726
+  }
+]

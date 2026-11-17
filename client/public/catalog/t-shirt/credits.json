@@ -1,0 +1,72 @@
+[
+  {
+    "file": "t-shirt-01.jpg",
+    "title": "Ambigram Ideal, polysymmetrical logo printed on a green T-shirt",
+    "creator": "Basile Morin",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ambigram_Ideal,_polysymmetrical_logo_printed_on_a_green_T-shirt.jpg",
+    "provider": "wikimedia",
+    "shows": "Olive-green crew-neck cotton T-shirt with a white 'IDEAL' ambigram wordmark printed across the chest, laid flat and photographed from above on a pure white background",
+    "tone": "light",
+    "orientation": "square",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "file": "t-shirt-02.jpg",
+    "title": "Big League Chew 2 (1)",
+    "creator": "Officialeague",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_League_Chew_2_(1).jpg",
+    "provider": "wikimedia",
+    "shows": "Royal-blue wool baseball cap with a white felt interlocking monogram on the front, resting on a weathered wooden railing with blurred green stadium seats and a ball field behind",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "t-shirt-03.jpg",
+    "title": "BEEFY-T - Hanes - 01",
+    "creator": "Quercus acuta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BEEFY-T_-_Hanes_-_01.jpg",
+    "provider": "wikimedia",
+    "shows": "Plain white heavyweight crew-neck T-shirt laid flat at an angle on a dark reddish-brown wooden table in soft window light, small neck label visible",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "t-shirt-04.jpg",
+    "title": "Chambal tshirt",
+    "creator": "Rktmnsl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chambal_tshirt.jpg",
+    "provider": "wikimedia",
+    "shows": "Two black T-shirts on wooden hangers against a bright orange wall, the left showing a large front print of a cartoon crocodile in cap and sunglasses above yellow 'OFFROAD' lettering and a small 4x4, the right showing the plain back with a small chest-height logo; mock-up style product image",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "t-shirt-05.jpg",
+    "title": "A cap in yuen chow estate",
+    "creator": "Peachyeung316",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_cap_in_yuen_chow_estate.jpg",
+    "provider": "wikimedia",
+    "shows": "Plain cream-beige lightweight sports cap with black piping and mesh side vents, no logo, sitting on a ledge of small pink square tiles with dark granite paving behind",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

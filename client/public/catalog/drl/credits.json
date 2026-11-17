@@ -1,0 +1,72 @@
+[
+  {
+    "file": "drl-01.jpg",
+    "title": "LED DaytimeRunningLights",
+    "creator": "Thermos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LED_DaytimeRunningLights.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a smoked projector headlight on a white Audi A4 with a curved row of bright white LED daytime running light dots along its lower edge, shot in daylight.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "drl-02.jpg",
+    "title": "Audi TT 8S Matrix-LED-Scheinwerfer Abblendlicht LED-Tagfahrlicht",
+    "creator": "Kickaffe (Mario von Berg)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audi_TT_8S_Matrix-LED-Scheinwerfer_Abblendlicht_LED-Tagfahrlicht.jpg",
+    "provider": "wikimedia",
+    "shows": "Audi TT Matrix LED headlight glowing in the dark: slim white LED daytime running light strips forming an angular signature around a lit projector lens, on a pure black background.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 726
+  },
+  {
+    "file": "drl-03.jpg",
+    "title": "Love Beamers! (8350172592)",
+    "creator": "Arun Kapoor from Mumbai, India",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Love_Beamers!_(8350172592).jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a BMW headlight with two illuminated white LED angel-eye rings on a matte bronze-brown coupe, with part of a silver multi-spoke alloy wheel at the right edge.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "drl-04.jpg",
+    "title": "Thor's Hammer - Volvo Headlights (44383394120)",
+    "creator": "Tony Webster from Minneapolis, Minnesota, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thor%27s_Hammer_-_Volvo_Headlights_(44383394120).jpg",
+    "provider": "wikimedia",
+    "shows": "Volvo XC90 'Thor's Hammer' LED daytime running light strip lit white at night with an amber turn indicator glowing at its end, raindrops on the lens, very dark background with blue and red bokeh.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "drl-05.jpg",
+    "title": "LED Daylight Headlight 3",
+    "creator": "MTSRider18",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LED_Daylight_Headlight_3.jpg",
+    "provider": "wikimedia",
+    "shows": "Low close-up of the headlight of a metallic blue Volkswagen Passat with a bright white LED daytime running light strip along the top of the lamp and chrome grille bars, in an indoor showroom with a silver SUV blurred in the background.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

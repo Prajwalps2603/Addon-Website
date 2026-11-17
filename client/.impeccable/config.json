@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "src/styles/index.css"
+        ],
+        "createdAt": "2026-11-17T10:26:32.550Z",
+        "reason": "User requested a race-flag pattern filling the footer sign-off letters (flag-sign utility)"
+      }
+    ]
+  }
+}

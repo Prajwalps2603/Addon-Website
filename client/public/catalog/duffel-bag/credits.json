@@ -1,0 +1,72 @@
+[
+  {
+    "file": "duffel-bag-01.jpg",
+    "title": "Leather duffel bag on the ground (Unsplash)",
+    "creator": "Harsh Jadav",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leather_duffel_bag_on_the_ground_(Unsplash).jpg",
+    "provider": "wikimedia",
+    "shows": "Tan-brown full-grain leather duffel bag with two front buckle pockets, rolled handles and a shoulder strap, sitting on the ground beside a tree trunk with a soft blurred woodland background",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "duffel-bag-02.jpg",
+    "title": "Duffel bag on the floor next to a chair (9XiN0r2NWSM)",
+    "creator": "Erol Ahmed",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duffel_bag_on_the_floor_next_to_a_chair_(9XiN0r2NWSM).jpg",
+    "provider": "wikimedia",
+    "shows": "Camel-tan canvas duffel bag with leather-trimmed strap lying on a honey-coloured wooden parquet floor next to a white moulded chair and cream panelled wall",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "duffel-bag-03.jpg",
+    "title": "QWSTION SIMPLE-HOLDALL RAW-BLEND-LEATHER FRONT",
+    "creator": "QWSTION",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:QWSTION_SIMPLE-HOLDALL_RAW-BLEND-LEATHER_FRONT.jpg",
+    "provider": "wikimedia",
+    "shows": "Light grey woven-canvas holdall with black webbing handles and a black leather base, front view studio shot on a plain white background",
+    "tone": "light",
+    "orientation": "square",
+    "width": 1280,
+    "height": 1280
+  },
+  {
+    "file": "duffel-bag-04.jpg",
+    "title": "Wriggle House - Full-Grain Genuine leather Holdall Travel Bag",
+    "creator": "Wrigglehouse",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wriggle_House_-_Full-Grain_Genuine_leather_Holdall_Travel_Bag.jpg",
+    "provider": "wikimedia",
+    "shows": "Distressed chestnut-brown leather holdall travel bag with brass hardware being carried by its handles by a person in grey trousers and tan loafers walking along a grey tarmac street, cropped below the shoulders",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "duffel-bag-05.jpg",
+    "title": "02-QWSTION-ZIP-PACK-LIMESTONE-FRONT",
+    "creator": "QWSTION",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02-QWSTION-ZIP-PACK-LIMESTONE-FRONT.jpg",
+    "provider": "wikimedia",
+    "shows": "Sage grey-green canvas zip-top backpack tote with a short black leather handle and metal strap rings, flat front view studio shot on a white background",
+    "tone": "light",
+    "orientation": "square",
+    "width": 1280,
+    "height": 1280
+  }
+]

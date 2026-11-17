@@ -1,0 +1,72 @@
+[
+  {
+    "file": "led-strip-01.jpg",
+    "title": "Volkswagen e-Bora in Kyiv night car interior",
+    "creator": "Strilets`",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_e-Bora_in_Kyiv_night_car_interior.jpg",
+    "provider": "wikimedia",
+    "shows": "Dark car dashboard at night with a bright blue ambient LED light strip glowing around the centre air vents, red hazard button and illuminated climate control knobs below, close-up",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "led-strip-02.jpg",
+    "title": "Mercedes-Benz W213 (E-class) doors with ambient lighting, 2016",
+    "creator": "Kārlis Dambrāns",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W213_(E-class)_doors_with_ambient_lighting,_2016.jpg",
+    "provider": "wikimedia",
+    "shows": "Car door panel in beige leather and black open-pore wood with a soft blue-violet ambient light strip glowing along the trim line and inside the door handle recess, round metal speaker grille, close-up",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "led-strip-03.jpg",
+    "title": "Genesis Electrified GV70 JK1 EV SDS II Obsidian Black Mono-tone Mountain Graphic Mood Lighting (5)",
+    "creator": "Damian B Oh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesis_Electrified_GV70_JK1_EV_SDS_II_Obsidian_Black_Mono-tone_Mountain_Graphic_Mood_Lighting_(5).jpg",
+    "provider": "wikimedia",
+    "shows": "Black leather dashboard with a thin blue ambient light line tracing the oval climate control panel, lit digital instrument cluster and wide infotainment screen behind, seen from the passenger side",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "led-strip-04.jpg",
+    "title": "Mercedes-Benz W213 (E-class) interior",
+    "creator": "Kārlis Dambrāns",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W213_(E-class)_interior.jpg",
+    "provider": "wikimedia",
+    "shows": "Black luxury sedan dashboard with a blue ambient light strip running along the dash and around the gloss black centre console, four round chrome air vents and steering wheel at left, angled interior view in daylight",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "led-strip-05.jpg",
+    "title": "Rolls-Royce Phantom VIII Series II Scivaro Grey Peony Pink Iceland Moss (13)",
+    "creator": "Damian B Oh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rolls-Royce_Phantom_VIII_Series_II_Scivaro_Grey_Peony_Pink_Iceland_Moss_(13).jpg",
+    "provider": "wikimedia",
+    "shows": "Black car roof lining dotted with tiny white starlight headliner lights, with a glowing white overhead reading-light console in the centre, shot looking up",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

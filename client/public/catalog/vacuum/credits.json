@@ -1,0 +1,72 @@
+[
+  {
+    "file": "vacuum-01.jpg",
+    "title": "Car washing activity at a residential driveway",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Car_washing_activity_at_a_residential_driveway.jpg",
+    "provider": "wikimedia",
+    "shows": "Black pressure washer lance spraying a mist of water over the roof of a wet dark blue hatchback on a driveway, with the operator out of focus at the right edge and trees behind.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "vacuum-02.jpg",
+    "title": "Person using a handheld vacuum cleaner on a couch in a living room",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Person_using_a_handheld_vacuum_cleaner_on_a_couch_in_a_living_room.jpg",
+    "provider": "wikimedia",
+    "shows": "A hand holding a white and black cordless handheld vacuum cleaner against a grey fabric seat cushion with green cushions behind; only the arm is visible, no face.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "vacuum-03.jpg",
+    "title": "A person operates a pressure washer to clean a black car at an outdoor car wash",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_person_operates_a_pressure_washer_to_clean_a_black_car,_surrounded_by_bright_sunlight_at_an_outdoor_car_wash.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a hand gripping a black pressure washer trigger gun with a red button, the lance pointing at the side of a dark car that is out of focus.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "vacuum-04.jpg",
+    "title": "Dyson V6 Trigger handheld vacuum",
+    "creator": "Your Best Digs",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dyson_V6_Trigger_handheld_vacuum.jpg",
+    "provider": "wikimedia",
+    "shows": "Grey cordless handheld vacuum cleaner with a clear dust bin, pistol grip and small brush nozzle, side view on beige carpet in front of a pale wooden cabinet; small Dyson V6 lettering on the bin.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "vacuum-05.jpg",
+    "title": "Fujitek handheld cyclone vacuum cleaner (model FT-VC301)",
+    "creator": "Mk2010",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fujitek_handheld_cyclone_vacuum_cleaner_(model_FT-VC301).jpg",
+    "provider": "wikimedia",
+    "shows": "Corded handheld cyclone vacuum cleaner with a grey body, translucent blue dust bin and blue nozzle, lying on a light wood table, seen from above at an angle.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

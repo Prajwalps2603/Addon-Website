@@ -1,0 +1,72 @@
+[
+  {
+    "file": "oil-can-01.jpg",
+    "title": "Motor oil refill with funnel",
+    "creator": "Dvortygirl",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Motor_oil_refill_with_funnel.JPG",
+    "provider": "wikimedia",
+    "shows": "Hand tilting a silver plastic motor oil bottle and pouring golden oil through a bright yellow funnel into a car engine, close-up; label small print is visible but no brand logo.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "oil-can-02.jpg",
+    "title": "Pouring engine oil to motor",
+    "creator": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pouring_engine_oil_to_motor.jpg",
+    "provider": "wikimedia",
+    "shows": "Hand pouring amber engine oil from a grey plastic jug straight into the oil filler hole of a dusty car engine, close-up; a small red Citroen chevron badge sits on the engine cover.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "oil-can-03.jpg",
+    "title": "Checking the oil level in a VW Passat b6 car",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Checking_the_oil_level_in_a_VW_Passat_b6_car.jpg",
+    "provider": "wikimedia",
+    "shows": "Hand pulling an orange-handled engine oil dipstick out over a blurred dark engine bay, shallow depth of field with warm moody tones.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "oil-can-04.jpg",
+    "title": "Checking the fluid level in a car engine during maintenance work",
+    "creator": "Shixart1985",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Checking_the_fluid_level_in_a_car_engine_during_maintenance_work.jpg",
+    "provider": "wikimedia",
+    "shows": "Hand holding a grey fluid reservoir cap above the open reservoir in an older car's engine bay, teal-tinted moody close-up.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "oil-can-05.jpg",
+    "title": "Antifreeze in the radiator",
+    "creator": "EvelynGiggles",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antifreeze_in_the_radiator.jpg",
+    "provider": "wikimedia",
+    "shows": "Bright green antifreeze coolant filling an open black radiator filler neck with a metal hose clamp beside it, close-up.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1024,
+    "height": 768
+  }
+]

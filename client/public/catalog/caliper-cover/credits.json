@@ -1,0 +1,72 @@
+[
+  {
+    "file": "caliper-cover-01.jpg",
+    "title": "A Wheel Within A Wheel (42848635454)",
+    "creator": "sagesolar",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_Wheel_Within_A_Wheel_(42848635454).jpg",
+    "provider": "wikimedia",
+    "shows": "Bright red brake caliper and drilled disc seen through a gloss black multi-spoke alloy wheel with a thin red rim-edge stripe, on a gloss black hot hatch, side-on close-up",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "caliper-cover-02.jpg",
+    "title": "Chevrolet Corvette (C7) Z06 Brembo ceramic brakes (24572832762)",
+    "creator": "Yahya S.",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_(C7)_Z06_Brembo_ceramic_brakes_(24572832762).jpg",
+    "provider": "wikimedia",
+    "shows": "Yellow brake caliper behind a gloss black twin-spoke alloy wheel with a yellow pinstripe around the rim edge, on a yellow sports car, close-up filling the frame",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 851
+  },
+  {
+    "file": "caliper-cover-03.jpg",
+    "title": "BMW F90 M5 CS Frozen Deep Green Metallic (15)",
+    "creator": "Damian B Oh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BMW_F90_M5_CS_Frozen_Deep_Green_Metallic_(15).jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss red brake caliper and drilled carbon-ceramic disc behind a satin bronze-gold Y-spoke alloy wheel on a matte dark green sedan, whole wheel side-on",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "caliper-cover-04.jpg",
+    "title": "Bugatti Chiron, IAA 2017, Frankfurt (1Y7A2871)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bugatti_Chiron,_IAA_2017,_Frankfurt_(1Y7A2871).jpg",
+    "provider": "wikimedia",
+    "shows": "Light blue painted brake caliper seen through a gloss black alloy wheel with light blue machined spoke edges and rim, tight close-up with part of the centre cap and tyre sidewall",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "caliper-cover-05.jpg",
+    "title": "Wheel, IAA 2017, Frankfurt (1Y7A3040)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wheel,_IAA_2017,_Frankfurt_(1Y7A3040).jpg",
+    "provider": "wikimedia",
+    "shows": "Gold-yellow brake caliper behind a matte black cross-spoke alloy wheel with a thin polished rim edge and black centre cap, on a white car, whole wheel side-on in a showroom",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  }
+]

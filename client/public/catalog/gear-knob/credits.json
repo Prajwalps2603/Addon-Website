@@ -1,0 +1,72 @@
+[
+  {
+    "file": "gear-knob-01.jpg",
+    "title": "Gear stick (FIAT 500 Abarth)",
+    "creator": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gear_stick_(FIAT_500_Abarth).jpg",
+    "provider": "wikimedia",
+    "shows": "Black-and-white macro of a round manual gear knob wrapped in stitched black leather with a satin metal top cap engraved with a 5-speed shift pattern, against a dark blurred background.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 994
+  },
+  {
+    "file": "gear-knob-02.jpg",
+    "title": "Geneva MotorShow 2013 - Pagani Huayra gear stick",
+    "creator": "Clément Bucco-Lechat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geneva_MotorShow_2013_-_Pagani_Huayra_gear_stick.jpg",
+    "provider": "wikimedia",
+    "shows": "Polished aluminium gear lever with a turned metal knob and exposed mechanical shift linkage on a gloss carbon-fibre centre console, next to an aluminium and carbon handbrake lever and black leather with red stitching.",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 848
+  },
+  {
+    "file": "gear-knob-03.jpg",
+    "title": "Skoda Octavia GTEC gear stick (14233716466)",
+    "creator": "Robert Basic from Germany",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_GTEC_gear_stick_(14233716466).jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a manual gear knob in black leather with a gloss black top insert, chrome surround ring and white 6-speed shift pattern, with the car interior blurred behind.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "gear-knob-04.jpg",
+    "title": "Geneva International Motor Show 2018, Le Grand-Saconnex (1X7A1358)",
+    "creator": "Matti Blume",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geneva_International_Motor_Show_2018,_Le_Grand-Saconnex_(1X7A1358).jpg",
+    "provider": "wikimedia",
+    "shows": "Brushed aluminium brake and accelerator pedals with yellow pause and play symbols plus a brushed aluminium footrest, on a light wood-effect floor in a white and yellow concept car, no gear lever visible.",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 855
+  },
+  {
+    "file": "gear-knob-05.jpg",
+    "title": "Volkswagen Passat B8 (2017) – DSG gear selector and center console (interior)",
+    "creator": "Acgskup",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volkswagen_Passat_B8_(2017)_%E2%80%93_DSG_gear_selector_and_center_console_(interior).jpg",
+    "provider": "wikimedia",
+    "shows": "Automatic (DSG) gear selector with a satin silver and black knob and black leather gaiter on a silver and gloss black centre console with P R N D markings, seen from above beside grey fabric seats.",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  }
+]

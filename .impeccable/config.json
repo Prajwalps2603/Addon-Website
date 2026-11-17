@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-11-17T07:29:14.164Z",
+        "reason": "Claude: HTML order emails cannot load web fonts; Arial/Helvetica is the standard email-safe stack (server/src/lib/notify.js)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "winch-01.jpg",
+    "title": "Winch, Landrover Defender, Bieles-101",
+    "creator": "Jwh",
+    "license": "CC BY-SA 3.0 LU",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winch,_Landrover_Defender,_Bieles-101.jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of an electric recovery winch with black control box and steel wire rope mounted in a gloss black steel bumper, with a galvanised roller fairlead, cable hook and a red recovery eye, below the silver grille of a Land Rover 4x4",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 854
+  },
+  {
+    "file": "winch-02.jpg",
+    "title": "MAN TGL 8.180 Abschleppwagen (05)",
+    "creator": "Reise Reise",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAN_TGL_8.180_Abschleppwagen_(05).jpg",
+    "provider": "wikimedia",
+    "shows": "Close-up of a new dark blue and black electric winch with steel wire rope, hook and polished roller fairlead bolted to the black checker-plate deck of a recovery truck, with Superwinch badges visible on the motor housing",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 960
+  },
+  {
+    "file": "winch-03.jpg",
+    "title": "Maxtrax Fuse Shackle - Recovery Gear",
+    "creator": "Tony Webster",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maxtrax_Fuse_Shackle_-_Recovery_Gear.jpg",
+    "provider": "wikimedia",
+    "shows": "Studio close-up of an orange synthetic-rope soft recovery shackle with a black woven protective sleeve printed with the words FUSE SHACKLE, on a plain black background",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 715
+  },
+  {
+    "file": "winch-04.jpg",
+    "title": "2016 Land Rover Defender 110 XS TD",
+    "creator": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016_Land_Rover_Defender_110_XS_TD.jpg",
+    "provider": "wikimedia",
+    "shows": "Gloss black lifted Land Rover Defender 4x4 with a front-mounted electric winch and hawse fairlead on the bumper, a tow rope draped across the bonnet, external roll cage, roof rack with four round spot lamps, snorkel and mud-terrain tyres, front three-quarter view on a wet street",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 1052
+  },
+  {
+    "file": "winch-05.jpg",
+    "title": "RA1 tram rescue vehicle Vallila depot winch",
+    "creator": "Antti Leppänen",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RA1_tram_rescue_vehicle_Vallila_depot_winch.jpg",
+    "provider": "wikimedia",
+    "shows": "Heavy-duty front winch on a rescue truck, housed under a silver aluminium checker-plate cover with a roller fairlead, steel cable, pink hook and purple lifting sling, above yellow-and-black hazard chevrons",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 849
+  }
+]

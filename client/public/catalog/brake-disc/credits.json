@@ -1,0 +1,72 @@
+[
+  {
+    "file": "brake-disc-01.jpg",
+    "title": "PCCB Wiki 9949",
+    "creator": "Dan Lindsay (Edgy01)",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PCCB_Wiki_9949.jpg",
+    "provider": "wikimedia",
+    "shows": "Cross-drilled grey ceramic brake disc with a silver centre bell and a bright yellow multi-piston caliper lettered PORSCHE, wheel removed, inside the wheel arch of a blue sports car",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "file": "brake-disc-02.jpg",
+    "title": "Dülmen, Wiesmann Sports Cars, Wiesmann GT MF5 -- 2018 -- 9603",
+    "creator": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wiesmann_Sports_Cars,_Wiesmann_GT_MF5_--_2018_--_9603.jpg",
+    "provider": "wikimedia",
+    "shows": "Cross-drilled silver steel brake disc with a black centre bell and a gloss red caliper, seen close-up through the spokes of a silver and black alloy wheel",
+    "tone": "light",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "brake-disc-03.jpg",
+    "title": "Amg carbon ceramic brake geneva auto show 2011",
+    "creator": "Cheeni",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amg_carbon_ceramic_brake_geneva_auto_show_2011.JPG",
+    "provider": "wikimedia",
+    "shows": "Large dark grey cross-drilled carbon-ceramic brake disc with a metallic bronze-orange caliper lettered AMG Carbon Ceramic, displayed on its own against a pale cream background",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 852
+  },
+  {
+    "file": "brake-disc-04.jpg",
+    "title": "Dülmen, Wiesmann Sports Cars, Wiesmann Spyder Concept -- 2018 -- 9580",
+    "creator": "Dietmar Rabich",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Wiesmann_Sports_Cars,_Wiesmann_Spyder_Concept_--_2018_--_9580.jpg",
+    "provider": "wikimedia",
+    "shows": "Large cross-drilled silver brake disc with a black caliper behind a matte black thin-spoke alloy wheel with a red rim stripe, on a glossy blue sports car, side view of the whole wheel",
+    "tone": "mixed",
+    "orientation": "landscape",
+    "width": 1280,
+    "height": 853
+  },
+  {
+    "file": "brake-disc-05.jpg",
+    "title": "Disk brake 001",
+    "creator": "Tennen-Gas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Disk_brake_001.jpg",
+    "provider": "wikimedia",
+    "shows": "Racing brake assembly with a slotted steel disc, a dark grey four-piston caliper and bare wheel studs on a hub, lit against a dark workshop background",
+    "tone": "dark",
+    "orientation": "landscape",
+    "width": 960,
+    "height": 639
+  }
+]
